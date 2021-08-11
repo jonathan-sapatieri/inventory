@@ -1,0 +1,31 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start:prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathan-sapatieri/inventory.git"
+  },
+  "author": "jonathan sapatieri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-sapatieri/inventory/issues"
+  },
+  "homepage": "https://github.com/jonathan-sapatieri/inventory#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
